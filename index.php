@@ -18,8 +18,8 @@
             <div class="collapse navbar-collapse" id="menus">
                 <div class="navbar-nav">
                     <a href="home.html" class="nav-link active">Home</a>
-                    <a href="#" class="nav-link">About Us</a>
-                    <a href="#" class="nav-link">Contact Us</a>
+                    <a href="#" class="nav-link ">About Us</a>
+                    <a href="#" class="nav-link btn btn-primary"> Register now</a>
                     <a href="#" class="nav-link">Location</a>
                 </div>
             </div>

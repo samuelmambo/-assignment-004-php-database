@@ -12,7 +12,7 @@ if( isset($_POST['submitButton']))
     $insertData = mysqli_query($conn,"INSERT INTO subscriber2(email)VALUES('$email')");
     if($insertData)
     {
-        echo "Succefully Submited";
+        echo "Succefully Submited ";
     }
     else {
         echo "Not Successful".mysqli_error($conn); 
