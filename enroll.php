@@ -44,7 +44,7 @@ if( isset($_POST['submitButton']))
 <body>
        <!--navbar starts here-->
     <nav class="navbar navbar-expand-lg bg-light fixed-top-shadow">
-        <div class="container">
+        <div class="container-fluid">
             <a href="#" class="navbar-brand">Zalego Academy</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#menus">
                 <span class="navbar-toggler-icon"></span>
@@ -74,8 +74,8 @@ if( isset($_POST['submitButton']))
         load of greate tips and events for you.
         </p>
     </div>
-    <div class="container">
-    <div class="card shadow p-3 mb-5 bg-body rounded col-lg-6" >
+    <div class="container shadow p-3 mb-5 bg-white rounded">
+        <div class="card-body">
         <h1 class="text-center text-primary">Sign up today?</h1>
         <form action="enroll.php" method="POST">
             <div class="row"> 
@@ -133,8 +133,8 @@ if( isset($_POST['submitButton']))
             <button type="submit" name="submitButton" class="btn btn-primary">Subscribe application</button>
             
         </form> 
-    </div>
 
+        </div>
     </div>
     <div class="text-center">
         <p>
