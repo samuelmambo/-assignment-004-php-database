@@ -65,8 +65,9 @@ if( isset($_POST['submitButton']))
         <span class="text-dark">20th July 2020</span> <br>
         <span class="text-dark"> <i class="fa fa-map-marker fa-3x"></i>
             <span class="text-dark">Zalego Academy <br>
-                                      Devan Plaza
-        </span></span>
+             Devan Plaza
+            </span>
+         </span>
        </div>
      </main>
     </div>
@@ -82,23 +83,23 @@ if( isset($_POST['submitButton']))
         <form action="enroll.php" method="POST">
             <div class="row"> 
                <div class="mb-3 col-lg-6 ">
-                    <label for="firstname" class="form-label">Full Name</label>
+                    <label for="firstname" class="form-label font-weight-bold">Full Name :</label>
                     <input type="text"  name="fullname" class="form-control shadow p-3 mb-5 bg-white rounded" placeholder="Enter your full name" >
                 </div>
                 <div class="mb-3 col-lg-6">
-                    <label for="Phone Number" class="form-label">Phone Number</label>
+                    <label for="Phone Number" class="form-label font-weight-bold">Phone Number :</label>
                     <input type="text" name="phonenumber" class="form-control shadow p-3 mb-5 bg-white rounded" placeholder="+2547" >
                 </div>    
             </div>
             <div class="row"> 
                 <div class="mb-3 col-lg-6 ">
-                    <label for="Email Address" class="form-label">Email Address</label>
+                    <label for="Email Address" class="form-label font-weight-bold">Email Address :</label>
                     <input type="tel"  name="emailaddress"class="form-control shadow p-3 mb-5 bg-white rounded" placeholder="Please enter your email" >
                 </div>
                 <div class="mb-3 col-lg-6">
-                    <label for="Gender"  class="form-label ">What's your gender?</label>
+                    <label for="Gender"  class="form-label  font-weight-bold">What's your gender?</label>
                     <select  name="gender"class="form-select shadow p-3 mb-5 bg-white rounded" >
-                        <option >--Select your gender--</option>
+                        <option  class="font-weight-bold">--Select your gender--</option>
                         <option value="male">male</option>
                         <option value="female">female</option>
                     </select>
